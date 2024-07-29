@@ -1,0 +1,27 @@
+.category-title{
+    height: 250px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-size: cover;
+    background-position: center;
+}
+.category-title:hover{
+    transform: scale(1.05);
+}
+.sale-banner img{
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+.home-banner{
+    background-color: grey;
+    width: 100%;
+}
